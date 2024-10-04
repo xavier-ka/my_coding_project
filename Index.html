@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            background-color: #040504;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 5;
+        }
+        .card {
+            background-color: #a7c46357;
+            width: 300px;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .ivy {
+            border-radius: 50%; 
+            height: 150px;
+            width: 150px;
+            margin-bottom: 10px;
+        }
+        .button {
+            background-color: #1e781e;
+            color: #ffffff;
+            padding: 8px;
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+            margin-top: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #533d3d;
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+        .social-icons a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            margin: 5px 10px;
+            display: flex;
+            align-items: center;
+        }
+        .social-icons a i {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+    <div class="card">
+        <img src="IMG_222.png" alt="Profile Picture" class="ivy">
+            <source srcset='large.webp' media='(min-width: 992px)' type='image/webp'>
+            <source srcset='large.jpg' media='(min-width: 992px)' type='image/jpeg'>
+            <img src='small.jpg' alt=''>
+        </picture>"> 
+        <h2 style="color: #fff;">Ivy M. Pagzu</h2>
+        <p style="color: #1a1af7d8;">Tamale, Ghana</p>
+        <p style="color: #fff;">"Medical Laboratory Scientist."</p>
+       
+        <button class="button">Google Scholar</button>
+        <button class="button">GitHub</button>
+        <button class="button">LinkedIn</button><br>
+
+        <a href="https:/" target="_blank"><i class="fab fa-google scholar"></i>Google Scholar</a>
+           <a href="https:/" target="_blank"><i class="fab fa-github"></i>GitHub</a>
+           <a href="https:/" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>
+
+        </div>
+    </div>
+</body>
+</html>
